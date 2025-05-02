@@ -22,7 +22,7 @@ p.desc {color:#666; font-weight: 300;font-size: 48px; margin-top: 10px;text-shad
 	100% {background-position: 0 50%;font-weight: 900;}
 }
 .hero {position: relative; border-radius: 24px; overflow: hidden; margin-bottom: 120px;}
-.hero figcaption {position: absolute;inset: 0; display: flex; align-items: center; justify-content: center; font-size: 48px; color: #fff;  font-weight: 800; text-shadow: 1px 1px 5px pink; background-color: rgba(0,0,0,0.4);z-index: 1;text-align: center;}
+.hero figcaption {position: absolute;inset: 0;z-index:4; display: flex; align-items: center; justify-content: center; font-size: 48px; color: #fff;  font-weight: 800; text-shadow: 1px 1px 5px pink; background-color: rgba(0,0,0,0.4);text-align: center;}
 #main {margin-top: 60px;}
 #mapArea {margin-top: 60px;color: #fff;
 	content-visibility: auto;
@@ -80,5 +80,6 @@ p.desc {color:#666; font-weight: 300;font-size: 48px; margin-top: 10px;text-shad
 	#map {height: 340px;}
 	#loading img {width: 120px;margin:-60px 0 0 -60px;}
 	#main {margin-top: 0;}
-	.hero figcaption {font-size: 7.5vw;}
+	.hero figcaption {font-size: 7.5vw; top:auto; bottom:20%;backbround:0 0;}
+	.hero figure:after{position: absolute;inset: 0;z-index:3;background-color: rgba(0,0,0,0.4);content:'';}
 }
