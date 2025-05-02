@@ -80,6 +80,6 @@ p.desc {color:#666; font-weight: 300;font-size: 48px; margin-top: 10px;text-shad
 	#map {height: 340px;}
 	#loading img {width: 120px;margin:-60px 0 0 -60px;}
 	#main {margin-top: 0;}
-	.hero figcaption {font-size: 7.5vw; top:auto; bottom:20%;backbround:0 0;}
+	.hero figcaption {font-size: 7.5vw; top:auto; bottom:20%;background:0 0;}
 	.hero figure:after{position: absolute;inset: 0;z-index:3;background-color: rgba(0,0,0,0.4);content:'';}
 }
